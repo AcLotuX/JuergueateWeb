@@ -1,0 +1,31 @@
+/* - - - - - ICONS INSIDE INPUT TEXT - - - - - */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+/* - - - - - - - FLEX ELEMENTS - - - - - - */
+.flex-dir-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* - - - - - - - GENERAL ELEMENTS - - - - - - */
+.container{
+    width: 100%;
+    height: 100%;
+}

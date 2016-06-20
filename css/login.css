@@ -1,0 +1,35 @@
+.any-image{
+    /* imagen o logo */
+    text-align: center;
+    background-color: azure;
+    border: 1px solid #999;
+    height: 200px;
+    justify-content: flex-start;
+}
+.form-login{
+    padding: 50px;
+    border: 2px solid #999;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 5%;
+/*
+    background-color: #222;
+    background: rgba(0,0,0,0.2);
+*/
+    vertical-align: middle;
+    width: 450px;
+}
+.form-login .btn{
+    width:100%
+}
+.form-login .link{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-login{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
